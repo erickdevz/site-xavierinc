@@ -17,13 +17,14 @@ body, input ,textarea {
 
 header{
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: #d706f3;
+    max-height: 150px;
     color: #ecf0f1;
 }
 
 header nav li {
     display: inline;
-    margin-left: 16px;
+    margin-left: 10px;
     color: #ecf0f1;
     font-size: 15px;
 }
@@ -34,8 +35,8 @@ header nav li a {
 }
 
 .container {
-    max-width: 1280px;
-    width: 100%;
+    max-width: 1680px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -48,6 +49,7 @@ section .container{
 
 .brands-list img{
     height: 24px;
+    align-items: center;
 }
 
 .brands-list li {
@@ -135,7 +137,7 @@ input:focus, textarea:focus {
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #d706f3;
     color: #ecf0f1;
     padding: 16px 0;
 }
